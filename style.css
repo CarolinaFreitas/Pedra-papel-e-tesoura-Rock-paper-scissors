@@ -1,10 +1,82 @@
 html {
     box-sizing: border-box;
-    font-size:10px;
+    font-size:15px;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    font-family: "Roboto Mono", monospace, sans-serif;
+    font-family: "Fira Code", monospace, sans-serif;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+    min-height: 600px;
+    /* background: #efefef; */
+    
+    /* background: linear-gradient(to left top, #e66465, #9198e5); */
+}
+/* ---------------------------------------------------------
+                            header
+---------------------------------------------------------- */
+header {
+    height: 10vh;
+    /* background: pink; */
+    margin: 0px;
+    padding: 0px;
+}
+#title {
+    font-family: "VT323", monospace;
+    /* background: yellow; */
+    line-height: 200%;
+    margin: 0px;
+    padding: 0px;
+}
+#subtitle {
+    font-size: 10px;
+}
+/* ---------------------------------------------------------
+                            BOTÕES / choices
+---------------------------------------------------------- */
+
+#choices-section {
+    min-height:30vh;
+    margin: 9vh auto;
+    /* background: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices {
+    background: rgb(255, 244, 244);
+    border-radius: 50%;
+    border: none;
+    padding: 1vh;
+    margin: auto 3vw;
+}
+.choices:hover {
+    /* box-shadow: -0.1px -0.1px 0px 2px tomato; */
+    border:0px solid tomato;
+    box-shadow: 0px 0px 1px 2px tomato;
+}
+.choices svg{
+    height: 10vh;
+    width: auto;
 }
 
+/* ---------------------------------------------------------
+                            MSGS / messages
+---------------------------------------------------------- */
+.bigger {
+    font-size: 1.5em;
+}
+
+.smaller {
+    font-size: 0.75em;
+}
+/* ---------------------------------------------------------
+                            PLACAR / scores
+---------------------------------------------------------- */
+
+/* ---------------------------------------------------------
+                            footer
+---------------------------------------------------------- */
